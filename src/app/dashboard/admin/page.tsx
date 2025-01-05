@@ -1,6 +1,7 @@
 import CountChart from "@/app/components/CountChart";
 import UserCard from "@/app/components/UserCard";
 import AttendanceChart from "@/app/components/AttendanceChart";
+import FinanceChart from "@/app/components/financeChart";
 
 const AdminPage = () => {
   return (
@@ -21,6 +22,9 @@ const AdminPage = () => {
           <div className="w-full lg:w-2/3 h-[450px]">
             <AttendanceChart />
           </div>
+        </div>
+        <div className="w-full h-[500px]">
+          <FinanceChart />
         </div>
       </div>
       {/* kanan */}
