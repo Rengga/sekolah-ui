@@ -2,6 +2,8 @@ import CountChart from "@/app/components/CountChart";
 import UserCard from "@/app/components/UserCard";
 import AttendanceChart from "@/app/components/AttendanceChart";
 import FinanceChart from "@/app/components/financeChart";
+import EventCalendar from "@/app/components/EventCalendar";
+import Announcements from "@/app/components/Announcements";
 
 const AdminPage = () => {
   return (
@@ -28,7 +30,10 @@ const AdminPage = () => {
         </div>
       </div>
       {/* kanan */}
-      <div className="w-full lg:w-1/3"></div>
+      <div className="w-full lg:w-1/3 flex flex-col gap-4">
+        <EventCalendar />
+        <Announcements />
+      </div>
     </div>
   );
 };

@@ -8,6 +8,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         purple: "#7469B6",
+        purplerMedium: "#9f8efa",
         purpleLight: "#EEF1FF",
         pink: "#E95793",
         pinkLight: "#FFE6EB",
