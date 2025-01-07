@@ -126,7 +126,7 @@ const Menu = () => {
             if (item.visible.includes(role)) {
               return (
                 <Link
-                  href={item.href}
+                  href={`/dashboard/${item.href}`}
                   key={item.label}
                   className="flex items-center justify-center lg:justify-start gap-2 rounded-md p-[4px] md:px-2 hover:bg-purpleLight"
                 >

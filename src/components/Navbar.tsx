@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center px-4">
       <div className="hidden md:flex py-2 px-4 gap-2 w-72 rounded-full bg-white border border-purple-300">
         <Image src="/search.png" alt="" width={14} height={14} className="object-contain" />
         <input type="text" placeholder="Search..." className="w-full focus:outline-none" />
