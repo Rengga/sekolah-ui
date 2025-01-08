@@ -13,6 +13,7 @@ export default {
         pink: "#E95793",
         pinkLight: "#FFE6EB",
         blueLight: "#C4EBF5",
+        red: "#FF8080",
       },
     },
   },

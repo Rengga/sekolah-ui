@@ -35,7 +35,7 @@ const FormModal = ({
   id?: number;
 }) => {
   const size = type === "create" ? "w-8 h-8" : "w-7 h-7";
-  const bgColor = type === "create" ? "bg-lamaYellow" : type === "update" ? "bg-lamaSky" : "bg-lamaPurple";
+  const bgColor = type === "create" ? "bg-blueLight" : type === "update" ? "bg-pinkLight" : "bg-red";
 
   const [open, setOpen] = useState(false);
 
